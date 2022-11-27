@@ -84,7 +84,8 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+ /* background-color: var(--bs-body-bg);*/
+  background-color: red;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -5891,6 +5892,7 @@ textarea.form-control-lg {
   height: 0.5rem;
 }
 .popover .popover-arrow::before, .popover .popover-arrow::after {
+	 height: 0.5rem;
   position: absolute;
   display: block;
   content: "";
